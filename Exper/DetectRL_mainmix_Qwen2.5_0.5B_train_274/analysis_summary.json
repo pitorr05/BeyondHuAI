@@ -1,0 +1,41 @@
+{
+  "model_path": "Qwen/Qwen2.5-0.5B-Instruct",
+  "data_path": "datasets/detectrl_dataset/main_dataset/detectrl_train_dataset_llm_type_mix_llms.json",
+  "sample_size_per_group": 274,
+  "truncate_len": 210,
+  "hidden_layers": [
+    24,
+    23,
+    22,
+    21,
+    20,
+    19,
+    18,
+    17,
+    16,
+    15,
+    14,
+    13,
+    12,
+    11,
+    10,
+    9,
+    8,
+    7,
+    6,
+    5,
+    4,
+    3,
+    2
+  ],
+  "note": "HC3/Qwen exploratory analysis. Mean signed activation follows the current RepreGuard visualization statistic. Absolute/RMS activation maps are exploratory additions, not the original RepreGuard method. Cohen's d maps are descriptive.",
+  "mean_activation_color_range_p01_p99": [
+    -0.0006792416796088218,
+    0.31143603920936586
+  ],
+  "overall_mean_signed_activation": {
+    "human": 0.03932005539536476,
+    "llm": 0.035900771617889404,
+    "llm_minus_human": -0.003419283777475357
+  }
+}
