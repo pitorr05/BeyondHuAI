@@ -1,0 +1,59 @@
+{
+  "manuscript_tex_sha256": "b776715d9ca734f7c53a7e97ee9585bdf122ba64b8d4ca99fcc6aef43c0b30c5",
+  "figures": [
+    {
+      "manuscript_source": "figures/motivation_authorship_evidence.png",
+      "repository_asset": "assets/paper/motivation_authorship_evidence.png",
+      "preview": "assets/paper/motivation_authorship_evidence.png",
+      "sha256": "97e1bc3a1ad8e825677027c4e8aebb98abea160b7449522035a160a7b334bceb"
+    },
+    {
+      "manuscript_source": "figures/motivation_ranking_decisions.png",
+      "repository_asset": "assets/paper/motivation_ranking_decisions.png",
+      "preview": "assets/paper/motivation_ranking_decisions.png",
+      "sha256": "e1266508b732a5f70513cf4a673c8a2eb73e85cbe86f1160c8fb2fd2ca353081"
+    },
+    {
+      "manuscript_source": "figures/Figure_A_Layer_Effect_Profiles.png",
+      "repository_asset": "assets/paper/Figure_A_Layer_Effect_Profiles.png",
+      "preview": "assets/paper/Figure_A_Layer_Effect_Profiles.png",
+      "sha256": "87cd7b9a22e34cab3ac07f5393b5a6fc03c561a0d51fa04e6078ffff9331562d"
+    },
+    {
+      "manuscript_source": "figures/diagnostic_cell_contrasts.pdf",
+      "repository_asset": "assets/paper/diagnostic_cell_contrasts.pdf",
+      "preview": "assets/previews/diagnostic_cell_contrasts.png",
+      "sha256": "1fdff1b940a7da0adc7139e3a5cae41b67c2e6f7d0a204fedcb60f8bebfbf3a0"
+    },
+    {
+      "manuscript_source": "figures/Figure_B_Cross_Dataset_Stability.png",
+      "repository_asset": "assets/paper/Figure_B_Cross_Dataset_Stability.png",
+      "preview": "assets/paper/Figure_B_Cross_Dataset_Stability.png",
+      "sha256": "0c46e425a88bd5c7708d3a544aea47153b49e2d7218237a894c544341df124b2"
+    },
+    {
+      "manuscript_source": "figures/Figure_C_Layer_CI_Coverage.png",
+      "repository_asset": "assets/paper/Figure_C_Layer_CI_Coverage.png",
+      "preview": "assets/paper/Figure_C_Layer_CI_Coverage.png",
+      "sha256": "21053bf3b7ab45782cfe82a7cae2ab5bc807a51e3ba12f2f3147305242090f37"
+    },
+    {
+      "manuscript_source": "figures/paar_framework.png",
+      "repository_asset": "assets/paper/paar_framework.png",
+      "preview": "assets/paper/paar_framework.png",
+      "sha256": "c64fac96c35f52fa1c47668ce9feedb8bf3be7cc308359b92ecd2536e3ec3152"
+    },
+    {
+      "manuscript_source": "figures/diagnostic_complete_hc3_7b.pdf",
+      "repository_asset": "assets/paper/diagnostic_complete_hc3_7b.pdf",
+      "preview": "assets/previews/diagnostic_complete_hc3_7b.png",
+      "sha256": "5603a2e23ddf780e436b086025eb171ca050c5699cd66073ee3717103cb2b72e"
+    },
+    {
+      "manuscript_source": "figures/diagnostic_layer_intervals_7b.pdf",
+      "repository_asset": "assets/paper/diagnostic_layer_intervals_7b.pdf",
+      "preview": "assets/previews/diagnostic_layer_intervals_7b.png",
+      "sha256": "a4c8567ac474b3e9304f5f8a92bba5e56ca851673ddb88e18066576e1a446e76"
+    }
+  ]
+}

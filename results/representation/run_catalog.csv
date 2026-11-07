@@ -1,0 +1,9 @@
+run_id,dataset,backbone,n_per_class,layers,positions,input_available,activation_cache_available,historical_input
+DetectRL-0.5B-n274,DetectRL,0.5B,274,23,210,False,False,datasets/detectrl_dataset/main_dataset/detectrl_train_dataset_llm_type_mix_llms.json
+DetectRL-1.5B-n274,DetectRL,1.5B,274,27,210,False,True,datasets/detectrl_dataset/main_dataset/detectrl_train_dataset_llm_type_mix_llms.json
+DetectRL-7B-n274,DetectRL,7B,274,27,210,False,True,datasets/detectrl_dataset/main_dataset/detectrl_train_dataset_llm_type_mix_llms.json
+HC3-7B-n500,HC3,7B,500,27,210,True,True,datasets/hc3_train_repre.json
+HC3-1.5B-n500,HC3,1.5B,500,27,210,True,True,datasets/hc3_train_repre.json
+HC3-0.5B-n200,HC3,0.5B,200,23,210,True,False,datasets/hc3_train_repre.json
+HC3-0.5B-n500,HC3,0.5B,500,23,210,True,True,datasets/hc3_train_repre.json
+RAID-7B-n500,RAID,7B,500,27,210,False,True,datasets/raid_dataset/raid_test_dataset_llm_type_llama-chat_decoding_type_sampling_repetition_penalty_no.json

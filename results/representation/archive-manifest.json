@@ -1,0 +1,222 @@
+[
+  {
+    "path": "results/representation/runs/DetectRL-0.5B-n274/activation_insights.pdf",
+    "sha256": "7ae7df41f1549072b723ae68c4b34e04c53b0852a92cf44d0e8efb8902ffd72f"
+  },
+  {
+    "path": "results/representation/runs/DetectRL-0.5B-n274/analysis_summary.json",
+    "sha256": "36fdb3fe3698cc45468667b73d9798747870aa4738b4091b0c12d5c1db26a0ca"
+  },
+  {
+    "path": "results/representation/runs/DetectRL-0.5B-n274/layer_effects.csv",
+    "sha256": "af035698d2fa3183850ef9b80af3f3b889b4bc9363cb5af82d4f26fb21a95c2f"
+  },
+  {
+    "path": "results/representation/runs/DetectRL-0.5B-n274/layer_effects.pdf",
+    "sha256": "fa8c4f2278b21fc72a2c23dd85aad40afbb2cd5aaa8c5cbd74bea6b56aef50eb"
+  },
+  {
+    "path": "results/representation/runs/DetectRL-0.5B-n274/token_layer_effects.csv",
+    "sha256": "137a12740dc1d62c91e6902f236f749f022d4bc1d224540e643ac3ce46ee09be"
+  },
+  {
+    "path": "results/representation/runs/DetectRL-0.5B-n274/top50_token_layer_effects.csv",
+    "sha256": "f4f2ef1540cbf2d9e36466c574f417edb72d6b00ee6a282c15e897246e69570e"
+  },
+  {
+    "path": "results/representation/runs/DetectRL-1.5B-n274/activation_insights.pdf",
+    "sha256": "cfd60411ee5ab9241888ae79fc59cb9a81475f8e85519cd1a281e97c7361987b"
+  },
+  {
+    "path": "results/representation/runs/DetectRL-1.5B-n274/analysis_summary.json",
+    "sha256": "575f61442f92b06850dcae3fc1489b5374b1be01b0b571cdb29cccac3cceaa0a"
+  },
+  {
+    "path": "results/representation/runs/DetectRL-1.5B-n274/layer_effects.csv",
+    "sha256": "de461f6f465cab2e35ecee257b44c91acc99804bf6aa7675f86958146ea88b99"
+  },
+  {
+    "path": "results/representation/runs/DetectRL-1.5B-n274/layer_effects.pdf",
+    "sha256": "4864169d97c9a18ede5bed25671ad208c5b28f07945da6b214b722aebca87a38"
+  },
+  {
+    "path": "results/representation/runs/DetectRL-1.5B-n274/sample_activations.npz",
+    "sha256": "51868825897c24c37e13cfb3fd97a5f32cb144643374ac56f18bc837e1277953"
+  },
+  {
+    "path": "results/representation/runs/DetectRL-1.5B-n274/token_layer_effects.csv",
+    "sha256": "afd20f154205988a2d6df85ddce6f37941053aca99367de5d0ad7c281c0a16c4"
+  },
+  {
+    "path": "results/representation/runs/DetectRL-1.5B-n274/top50_token_layer_effects.csv",
+    "sha256": "c6e73f26ed10978e44e6573c36c25e9f462dc0ab3c9bdbb56d2fb67bf6213402"
+  },
+  {
+    "path": "results/representation/runs/DetectRL-7B-n274/activation_insights.pdf",
+    "sha256": "07c96430092ccf2bf948848680328c3f63667f860b411d824168274b34916265"
+  },
+  {
+    "path": "results/representation/runs/DetectRL-7B-n274/analysis_summary.json",
+    "sha256": "5e848d5778280085f3487748d5a8c27361328f9bd6f25d011813004e1647d7ee"
+  },
+  {
+    "path": "results/representation/runs/DetectRL-7B-n274/layer_effects.csv",
+    "sha256": "f9a12e1a7ed2a362414241f550c35428a6b8ff017646f0687eb6d4941d04da57"
+  },
+  {
+    "path": "results/representation/runs/DetectRL-7B-n274/layer_effects.pdf",
+    "sha256": "6b1613a87a9eeadb8faba045a3d05ed88431215aed7bc058c9ae5cf9e65f6497"
+  },
+  {
+    "path": "results/representation/runs/DetectRL-7B-n274/sample_activations.npz",
+    "sha256": "95b2adf21353b1a597c84846a993c6a2815574665e445ff9922fd04fdc99b9b8"
+  },
+  {
+    "path": "results/representation/runs/DetectRL-7B-n274/token_layer_effects.csv",
+    "sha256": "06f3e02d8349b4b23db34f5bfc95a5a590a41f163c5c24f9951a6258ddda0907"
+  },
+  {
+    "path": "results/representation/runs/DetectRL-7B-n274/top50_token_layer_effects.csv",
+    "sha256": "c1d47861391bc3293df2627f9b4a80c4e76572c63a90167c98709cd7764f999e"
+  },
+  {
+    "path": "results/representation/runs/HC3-7B-n500/activation_insights.pdf",
+    "sha256": "ded13b40a4d1d5d4fa1a67a28aa97851eb7cbefcc7f4936ad3facfec67ca66a1"
+  },
+  {
+    "path": "results/representation/runs/HC3-7B-n500/analysis_summary.json",
+    "sha256": "18f87cd659cc19007a82b2f3da978a132b7bb58abb80ceced01642042e20ce84"
+  },
+  {
+    "path": "results/representation/runs/HC3-7B-n500/layer_effects.csv",
+    "sha256": "cd8472ebbd782b0e8441e88d5e3ba14a8c4d4ff1faad3895dc32130a40b5f137"
+  },
+  {
+    "path": "results/representation/runs/HC3-7B-n500/layer_effects.pdf",
+    "sha256": "6875388bc28e8b592f292a84d38fe9fb9bc472fb9c4dabb97fd45d7d9906b7ee"
+  },
+  {
+    "path": "results/representation/runs/HC3-7B-n500/sample_activations.npz",
+    "sha256": "c04af65e84af3ea0cc7d98b02b8532ad9820d57412732f8ada651f1bd4c742c4"
+  },
+  {
+    "path": "results/representation/runs/HC3-7B-n500/token_layer_effects.csv",
+    "sha256": "2d84599e499ef7282ce7da11d6ddb2d4034f64b72063d824fe99e60725306eeb"
+  },
+  {
+    "path": "results/representation/runs/HC3-7B-n500/top50_token_layer_effects.csv",
+    "sha256": "e8d7fa13e78a82695cf6d3259525d0326ffedb199655aae6e1d5c5779156f089"
+  },
+  {
+    "path": "results/representation/runs/HC3-1.5B-n500/activation_insights.pdf",
+    "sha256": "fc355095eecdc1831c54672e8f7fc9d505593c0e9bf6ae0156dfc52b7e04f7ba"
+  },
+  {
+    "path": "results/representation/runs/HC3-1.5B-n500/analysis_summary.json",
+    "sha256": "e74e6205ea7e66b9f85e7a0b9582cb928b7dc27f2d6128b9ab391b6829b29861"
+  },
+  {
+    "path": "results/representation/runs/HC3-1.5B-n500/layer_effects.csv",
+    "sha256": "746cc5d2716c4c3de8f2dbd0b306a4f4a6b0dcf2d320669388c40fee70528c45"
+  },
+  {
+    "path": "results/representation/runs/HC3-1.5B-n500/layer_effects.pdf",
+    "sha256": "e3e30e3a78bd36b868eadea8a4089ad0120459447f08fd32a288f3bda2e3b22d"
+  },
+  {
+    "path": "results/representation/runs/HC3-1.5B-n500/sample_activations.npz",
+    "sha256": "0b999d98e601c14444cea3172747ba9874516e8811341913a7be5453ff3e7ae9"
+  },
+  {
+    "path": "results/representation/runs/HC3-1.5B-n500/token_layer_effects.csv",
+    "sha256": "9e48b5459dc4319fdc174974a0184bffa91b8c70bdb932bea4bdf8744b4d057f"
+  },
+  {
+    "path": "results/representation/runs/HC3-1.5B-n500/top50_token_layer_effects.csv",
+    "sha256": "83f7a5bb0e7828bc088bddb3cb971013a710ad296ddf8b8e985a588f130abc78"
+  },
+  {
+    "path": "results/representation/runs/HC3-0.5B-n200/activation_insights.pdf",
+    "sha256": "dbb9349af6ef6ba028a91e1564db53c766ca33a143db1ef1fa29317c8ba7e1f9"
+  },
+  {
+    "path": "results/representation/runs/HC3-0.5B-n200/analysis_summary.json",
+    "sha256": "d8d9650d7cfdc60ebb4ad2094f92d4199c919bd7920883191a83a095d626ac4b"
+  },
+  {
+    "path": "results/representation/runs/HC3-0.5B-n200/layer_effects.csv",
+    "sha256": "2df2ab8f3128ef0b3022fe1e101db1afcde61be1a4fbf6d24692a464fcf70ffa"
+  },
+  {
+    "path": "results/representation/runs/HC3-0.5B-n200/layer_effects.pdf",
+    "sha256": "e67300bc1687d2cecea3b5948c441d5a76d11c67c5fd7ff7efdb50b97e88dbe2"
+  },
+  {
+    "path": "results/representation/runs/HC3-0.5B-n200/note.txt",
+    "sha256": "328f0d73717644872972c85e4a33895b9895b489a81e56ece4610bd5e597dc95"
+  },
+  {
+    "path": "results/representation/runs/HC3-0.5B-n200/token_layer_effects.csv",
+    "sha256": "89b81e9b4a426eacf3a776b653c045365f74e3b494120b19e6d10fc242a3d412"
+  },
+  {
+    "path": "results/representation/runs/HC3-0.5B-n200/top50_token_layer_effects.csv",
+    "sha256": "a7bb72d6eb4b67328181f9d287578e7a32f5022ca5ac50fae656cbc3930ec22a"
+  },
+  {
+    "path": "results/representation/runs/HC3-0.5B-n500/activation_insights.pdf",
+    "sha256": "d1f9246174e35a29b19baacbba0b7f9e81f5aafacda29eb8df87c77d70bb20e7"
+  },
+  {
+    "path": "results/representation/runs/HC3-0.5B-n500/analysis_summary.json",
+    "sha256": "d999bf68be0f5425fa52bb5323a11185e423627acb2882b903d078c6c86ce81e"
+  },
+  {
+    "path": "results/representation/runs/HC3-0.5B-n500/layer_effects.csv",
+    "sha256": "43b142e7e733b8000a194c78339136dc71d2314b6e79a11726e90e01dcda3c31"
+  },
+  {
+    "path": "results/representation/runs/HC3-0.5B-n500/layer_effects.pdf",
+    "sha256": "ca6faaff35b8f4a2cf877abfaad6916a0c49f9f38f2b4aefa1488a1d9787e23f"
+  },
+  {
+    "path": "results/representation/runs/HC3-0.5B-n500/sample_activations.npz",
+    "sha256": "8352b75eb0f0e5981a6642e2b6cfaaff40d8765c204fae36cc44e82c1016f907"
+  },
+  {
+    "path": "results/representation/runs/HC3-0.5B-n500/token_layer_effects.csv",
+    "sha256": "994078c644de8b2ee67ee800011aa18cbf4bf56e67783af84c5624d77d7064c7"
+  },
+  {
+    "path": "results/representation/runs/HC3-0.5B-n500/top50_token_layer_effects.csv",
+    "sha256": "33c24760cbed23cd26bbcd6819e3ee845ab50b85e6e2838c0a79911dd410d141"
+  },
+  {
+    "path": "results/representation/runs/RAID-7B-n500/activation_insights.pdf",
+    "sha256": "e3874d2eb91a964ce15fbcaf24ef9657476177daf005be7921ccb550bb65766a"
+  },
+  {
+    "path": "results/representation/runs/RAID-7B-n500/analysis_summary.json",
+    "sha256": "ba9e97cb9abfa223143a88a665d3b07a35c2965b3f47b5397adea8b11e909a72"
+  },
+  {
+    "path": "results/representation/runs/RAID-7B-n500/layer_effects.csv",
+    "sha256": "e1dc9f95a5d45bb25ce3baf3af123c7e88360a3ab55f9b40efaceacc0b344ba9"
+  },
+  {
+    "path": "results/representation/runs/RAID-7B-n500/layer_effects.pdf",
+    "sha256": "bd81eef2b377760d0e4315c7c5638899a733a8865e0fa930a05922742daf16af"
+  },
+  {
+    "path": "results/representation/runs/RAID-7B-n500/sample_activations.npz",
+    "sha256": "55b0a3ec825da33d84d284a8ce0408b496a2b897b2ba285d534bc5de3707f48f"
+  },
+  {
+    "path": "results/representation/runs/RAID-7B-n500/token_layer_effects.csv",
+    "sha256": "f24a0fa1047af9ddec9dacd328460c49a1a9d2da753603f4a7f456dd6f12f41f"
+  },
+  {
+    "path": "results/representation/runs/RAID-7B-n500/top50_token_layer_effects.csv",
+    "sha256": "9cc5148e77689f298976e0ab73d2a35cf81d017adaab6af54965c0d80fa608bb"
+  }
+]

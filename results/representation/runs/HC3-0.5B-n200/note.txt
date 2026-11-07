@@ -1,0 +1,7 @@
+python vis/repre_insight.py \
+  --model_path Qwen/Qwen2.5-0.5B-Instruct \
+  --data_path datasets/hc3_train_repre.json \
+  --sample_size 200 \
+  --truncate_len 210 \
+  --bootstrap_iter 1000 \
+  --output_dir results/insight/HC3_Qwen2.5_0.5B
