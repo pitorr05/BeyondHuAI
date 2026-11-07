@@ -1,11 +1,11 @@
 model,dataset,auroc_percent,accuracy_percent,precision_percent,recall_percent,f1_percent,provenance
-RepreGuard (Qwen2.5-0.5B-Instruct),DetectRL,96.04,90.76,99.95,81.56,89.82,F1 recalculated from displayed precision/recall with author confirmation; raw predictions unavailable
-RepreGuard (Qwen2.5-0.5B-Instruct),HC3,95.4,95.95,94.42,96.5,95.45,Reported manuscript result; raw predictions unavailable
-StyleDecipher (GPT-OSS-20B),DetectRL,82.81,74.93,75.0,72.37,73.64,Reported manuscript result; raw predictions unavailable
-StyleDecipher (GPT-OSS-20B),HC3,90.05,83.44,74.75,71.56,73.12,Reported manuscript result; raw predictions unavailable
-Binoculars (GPT-NEO-2.7B),DetectRL,95.09,88.4,99.48,77.2,86.94,Reported manuscript result; raw predictions unavailable
-Binoculars (GPT-NEO-2.7B),HC3,99.22,96.5,94.29,99.0,96.59,Reported manuscript result; raw predictions unavailable
-Fast-DetectGPT (GPT-NEO-2.7B),DetectRL,89.47,83.5,85.56,80.6,83.01,Reported manuscript result; raw predictions unavailable
-Fast-DetectGPT (GPT-NEO-2.7B),HC3,98.98,94.8,91.79,98.4,94.98,Reported manuscript result; raw predictions unavailable
-PRDetect (RoBERTa-Base),DetectRL,99.77,97.8,97.75,97.94,97.84,Reported manuscript result; raw predictions unavailable
-PRDetect (RoBERTa-Base),HC3,99.73,98.4,98.79,98.0,98.39,Reported manuscript result; raw predictions unavailable
+RepreGuard (Qwen2.5-0.5B-Instruct),DetectRL,96.04,90.76,99.95,81.56,89.82,F1 calculated from reported precision/recall; author-confirmed
+RepreGuard (Qwen2.5-0.5B-Instruct),HC3,95.4,95.95,94.42,96.5,95.45,Reported in the survey
+StyleDecipher (GPT-OSS-20B),DetectRL,82.81,74.93,75.0,72.37,73.64,Reported in the survey
+StyleDecipher (GPT-OSS-20B),HC3,90.05,83.44,74.75,71.56,73.12,Reported in the survey
+Binoculars (GPT-NEO-2.7B),DetectRL,95.09,88.4,99.48,77.2,86.94,Reported in the survey
+Binoculars (GPT-NEO-2.7B),HC3,99.22,96.5,94.29,99.0,96.59,Reported in the survey
+Fast-DetectGPT (GPT-NEO-2.7B),DetectRL,89.47,83.5,85.56,80.6,83.01,Reported in the survey
+Fast-DetectGPT (GPT-NEO-2.7B),HC3,98.98,94.8,91.79,98.4,94.98,Reported in the survey
+PRDetect (RoBERTa-Base),DetectRL,99.77,97.8,97.75,97.94,97.84,Reported in the survey
+PRDetect (RoBERTa-Base),HC3,99.73,98.4,98.79,98.0,98.39,Reported in the survey

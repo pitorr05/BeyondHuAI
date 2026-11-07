@@ -282,6 +282,61 @@ class ReleasedArtifactTests(unittest.TestCase):
         keys = set(re.findall(r"@\w+\s*\{\s*([^,]+),", bib))
         self.assertTrue(all(row["citation_key"] in keys for row in catalog))
 
+    def test_catalog_roles_are_unique_and_method_families_are_consistent(self):
+        with (ROOT / "survey/catalog.csv").open(encoding="utf-8") as stream:
+            rows = list(csv.DictReader(stream))
+        catalog = {row["citation_key"]: row for row in rows}
+        self.assertEqual(len(catalog), len(rows))
+        self.assertEqual(
+            {row["resource_type"] for row in rows},
+            {
+                "Detection methods",
+                "Benchmarks and datasets",
+                "Fine-grained authorship and human–AI collaboration",
+                "Robustness and attacks",
+                "Reliability, explanation and verification",
+                "Related surveys",
+                "Foundations and applications",
+            },
+        )
+        for row in rows:
+            if row["resource_type"] == "Detection methods":
+                self.assertIn(
+                    row["method_family"],
+                    {"Zero-shot", "Training-based", "Watermarking"},
+                )
+            else:
+                self.assertEqual(row["method_family"], "")
+        self.assertEqual(catalog["liu2024survey"]["resource_type"], "Related surveys")
+        self.assertEqual(
+            catalog["cheng2025sira"]["resource_type"], "Robustness and attacks"
+        )
+        readme = (ROOT / "README.md").read_text(encoding="utf-8")
+        for row in rows:
+            if row["paper_url"]:
+                self.assertTrue(row["paper_url"] in readme, row["citation_key"])
+            if row["code_url"]:
+                self.assertTrue(row["code_url"] in readme, row["citation_key"])
+
+    def test_public_documentation_excludes_internal_notes_and_worksheet(self):
+        self.assertFalse(
+            (ROOT / "results/detectors/archive/original-worksheet.xlsx").exists()
+        )
+        pages = {
+            path.relative_to(ROOT).as_posix()
+            for path in ROOT.rglob("*.md")
+            if not any(part in path.parts for part in [".git", "outputs", "external"])
+        }
+        self.assertEqual(
+            pages,
+            {
+                "README.md",
+                "data/README.md",
+                "docs/experiments.md",
+                "docs/figure-gallery.md",
+            },
+        )
+
     def test_all_document_relative_links_and_images_resolve(self):
         for path in ROOT.rglob("*.md"):
             if any(part in path.parts for part in [".git", "outputs", "external"]):

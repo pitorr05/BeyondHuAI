@@ -1,14 +1,13 @@
-# Released data files
+# Data
 
-[catalog.csv](catalog.csv) gives each file's format, record unit, count, label/source distribution, SHA-256 and metadata notes. These copies retain the contents of the existing BeyondHuAI data release; the MIT code license does not apply to underlying dataset texts.
+[catalog.csv](catalog.csv) lists the 14 files, record formats, counts, source labels and SHA-256 checksums.
 
-## Formats and counts
+## Formats
 
-`benchmark/` contains JSONL records with `text` and `label`. Read physical newline-delimited records; Unicode line separators inside text are not record delimiters. HC3 uses `hc3human`/`hc3chatgpt`; the other local benchmark files use `human`/`machine`.
+- `benchmark/`: JSONL records with `text` and `label`. HC3 labels are `hc3human`/`hc3chatgpt`; other benchmark files use `human`/`machine`.
+- `paired/`: JSON arrays with `human_text`, `direct_prompt` and source metadata. Each record contains two text fields. Representation analysis selects these fields independently; a storage pair is not a matched editing event.
 
-`paired/` contains JSON arrays with `human_text` and `direct_prompt`, alongside metadata. Each storage record has two text fields. A pairing is not by itself proof of a shared prompt, matched editing event or co-authorship history. The diagnostic protocol selects and sorts the fields independently.
-
-| File family | Benchmark text records | Paired-format records |
+| File family | Benchmark texts | Paired-format records |
 |---|---:|---:|
 | HC3 train | 8,000 | 2,000 pairs |
 | HC3 validation | 1,000 | 500 pairs |
@@ -16,18 +15,14 @@
 | GPT-3.5 mixed test | 1,000 | 500 pairs |
 | Each RAID test file | 2,000 | 1,000 pairs |
 
-The benchmark and paired versions must not be asserted to be identical splits merely because their names match. The paired HC3 test file, for example, represents 2,000 text slots while the benchmark test file has 1,000 individual records. Historical subset IDs are not recovered by selecting a prefix of an available file.
+Benchmark and paired files have separate record units and split histories. Evaluation sample counts are described in [the experimental guide](../docs/experiments.md#detector-experiments).
 
-## Known metadata issues
+## Metadata and diagnostic inputs
 
-The paired RAID sampling and Mistral files retain `llm_type=llama_greedy` from the original conversion script. This conflicts with their file names/configurations. The original converter paired class lists by position and hardcoded source labels; its metadata is not ground truth for model attribution. No historical text or label is silently repaired in this release.
+The paired RAID sampling and Mistral files contain the original `llm_type=llama_greedy` value, which conflicts with their file configurations. Some non-HC3 activation summaries also retain a generic HC3 note. These inconsistencies are identified in the catalogs; the released text and run files are unchanged.
 
-Some archived activation summaries also contain a generic HC3 note for non-HC3 runs. Run identity comes from the catalog and recorded input/model configuration, with that inconsistency preserved in the original JSON.
+The historical DetectRL mixed-LLM training input and RAID llama-chat sampling/no-penalty input referenced by the diagnostic summaries are obtained separately through [RepreGuard](https://github.com/NLP2CT/RepreGuard#datasets). Place them in `data/local/` or use `--data-path`. The local benchmark splits are separate resources from these diagnostic inputs.
 
-## Missing diagnostic inputs
+## Sources and terms
 
-The exact historical DetectRL mixed-LLM training input and RAID llama-chat sampling/no-penalty input referenced by the diagnostic summaries are not packaged. Obtain them through the original [RepreGuard dataset instructions](https://github.com/NLP2CT/RepreGuard#datasets), place them under ignored `data/local/`, or pass an explicit `--data-path`. A newly obtained input is not claimed to be byte-identical to a historical input without a recorded historical hash.
-
-## Sources and use
-
-Primary resources: [HC3](https://github.com/Hello-SimpleAI/chatgpt-comparison-detection), [DetectRL](https://github.com/NLP2CT/DetectRL), [RAID](https://github.com/liamdugan/raid). Local sampling/conversion metadata is separate from those upstream resources. No upstream dataset license is replaced by this repository's software license; retain the original attribution and applicable terms.
+Primary resources: [HC3](https://github.com/Hello-SimpleAI/chatgpt-comparison-detection), [DetectRL](https://github.com/NLP2CT/DetectRL), and [RAID](https://github.com/liamdugan/raid). Dataset texts retain their upstream terms and attribution. The repository's MIT license applies to original code and documentation.

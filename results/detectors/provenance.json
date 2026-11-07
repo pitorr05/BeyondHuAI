@@ -14,9 +14,8 @@
     "verified_from_predictions": false
   },
   "limitations": [
-    "The original worksheet predates the author-confirmed F1 correction.",
-    "The two protocols have different HC3 results; they are not merged.",
-    "No detector runner or inferred historical commit/threshold/hardware is supplied.",
-    "Other reported metrics are preserved, not certified by new evaluation."
+    "The detector comparisons are separate protocols.",
+    "Per-sample prediction logs and complete historical run settings are unavailable.",
+    "The F1 correction uses reported precision/recall and author confirmation."
   ]
 }

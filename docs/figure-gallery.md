@@ -1,6 +1,6 @@
 # Manuscript figures
 
-Nine figures are copied from the current manuscript. PNG artwork is kept byte-identical; PDF figures have separate PNG previews for GitHub. Rebuilding diagnostics writes to `outputs/` and does not replace these snapshots.
+Figures from the survey, with original assets and separate PNG previews for PDF figures.
 
 ## Figure 1: Alternative writing histories and the limits of document-level detection
 

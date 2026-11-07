@@ -32,5 +32,5 @@
     3,
     2
   ],
-  "provenance_note": "Seed/bootstrap settings follow the archived script defaults; historical environment, upstream commit and selected record IDs were not recorded. A new extraction is not asserted to reproduce the historical cohort."
+  "provenance_note": "Protocol defaults: seed 42 and 1,000 bootstrap iterations. Historical environment, upstream revision and selected record IDs are unavailable."
 }
