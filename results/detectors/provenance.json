@@ -1,0 +1,22 @@
+{
+  "manuscript_sha256": "b776715d9ca734f7c53a7e97ee9585bdf122ba64b8d4ca99fcc6aef43c0b30c5",
+  "metrics_unit": "percent",
+  "five_detector_table_label": "tab:main_results_new",
+  "cross_benchmark_table_label": "tab:cross_benchmark",
+  "f1_author_correction": {
+    "model": "RepreGuard",
+    "dataset": "DetectRL",
+    "before": 88.77,
+    "after": 89.82,
+    "precision": 99.95,
+    "recall": 81.56,
+    "calculation": 89.82339265054269,
+    "verified_from_predictions": false
+  },
+  "limitations": [
+    "The original worksheet predates the author-confirmed F1 correction.",
+    "The two protocols have different HC3 results; they are not merged.",
+    "No detector runner or inferred historical commit/threshold/hardware is supplied.",
+    "Other reported metrics are preserved, not certified by new evaluation."
+  ]
+}

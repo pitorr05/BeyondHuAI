@@ -1,0 +1,7 @@
+{
+  "base_commit": "dca6a9c1d59d04515f9d151ad7c28fa371eecd77",
+  "manuscript_sha256": "b776715d9ca734f7c53a7e97ee9585bdf122ba64b8d4ca99fcc6aef43c0b30c5",
+  "figure_manifest": "../assets/manifest.json",
+  "protected_workspace_modified": false,
+  "source_notes": "Only byte copies are made from the manuscript; no manuscript source, PDF or renderer is executed or edited."
+}

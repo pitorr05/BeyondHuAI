@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "Please cite the manuscript when discussing its findings; use this software citation for the companion repository."
+type: software
+title: "BeyondHuAI: Companion Resources and Representation Diagnostics for Beyond Human vs AI"
+authors:
+  - family-names: Pham
+    given-names: Quang Toan
+  - family-names: Nguyen
+    given-names: Duc Trung
+  - family-names: Hoang
+    given-names: Chi Hien
+  - family-names: Nguyen
+    given-names: Quang Chien
+  - family-names: Nguyen
+    given-names: Kieu Linh
+repository-code: "https://github.com/pitorr05/BeyondHuAI"
+url: "https://github.com/pitorr05/BeyondHuAI"
+license: MIT
+abstract: "Companion literature resources, reported results and descriptive representation diagnostics for a manuscript in preparation. MIT applies to original software, not third-party datasets or manuscript artwork."
