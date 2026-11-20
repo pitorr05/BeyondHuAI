@@ -1,0 +1,9 @@
+run_id,dataset,backbone,n_per_class,layers,positions,seed,bootstrap_iterations,input_source
+DetectRL-0.5B-n274,DetectRL,Qwen2.5-0.5B-Instruct,274,23,210,42,1000,RepreGuard datasets: detectrl_train_dataset_llm_type_mix_llms.json
+DetectRL-1.5B-n274,DetectRL,Qwen2.5-1.5B-Instruct,274,27,210,42,1000,RepreGuard datasets: detectrl_train_dataset_llm_type_mix_llms.json
+DetectRL-7B-n274,DetectRL,Qwen2.5-7B-Instruct,274,27,210,42,1000,RepreGuard datasets: detectrl_train_dataset_llm_type_mix_llms.json
+HC3-7B-n500,HC3,Qwen2.5-7B-Instruct,500,27,210,42,1000,data/paired/hc3_train_repre.json
+HC3-1.5B-n500,HC3,Qwen2.5-1.5B-Instruct,500,27,210,42,1000,data/paired/hc3_train_repre.json
+HC3-0.5B-n200,HC3,Qwen2.5-0.5B-Instruct,200,23,210,42,1000,data/paired/hc3_train_repre.json
+HC3-0.5B-n500,HC3,Qwen2.5-0.5B-Instruct,500,23,210,42,1000,data/paired/hc3_train_repre.json
+RAID-7B-n500,RAID,Qwen2.5-7B-Instruct,500,27,210,42,1000,RepreGuard datasets: raid_test_dataset_llm_type_llama-chat_decoding_type_sampling_repetition_penalty_no.json

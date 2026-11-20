@@ -1,0 +1,29 @@
+{
+  "metrics_unit": "percent",
+  "tables": {
+    "five-detector-comparison.csv": {
+      "manuscript_table": "Table 8 (tab:main_results_new)",
+      "benchmarks": ["HC3", "DetectRL"],
+      "split_per_benchmark": {"train": 2000, "test": 1000},
+      "zero_shot": ["Binoculars (GPT-NEO-2.7B)", "Fast-DetectGPT (GPT-NEO-2.7B)"],
+      "reference_pairs": ["RepreGuard (Qwen2.5-0.5B-Instruct)"],
+      "trained_classifier": ["StyleDecipher (GPT-OSS-20B)", "PRDetect (RoBERTa-Base)"],
+      "repreguard_aggregation": "mean over five bootstrap resamples, following the original RepreGuard protocol",
+      "f1_definition": "F1 = 2PR / (P + R)"
+    },
+    "cross-benchmark-comparison.csv": {
+      "manuscript_table": "Table 9 (tab:cross_benchmark)",
+      "in_domain": "HC3, computed on each detector's own HC3 test split",
+      "external_test_sets": {
+        "GPT-3.5 mixed": "1,000 texts (500 human, 500 machine)",
+        "RAID Llama greedy": "2,000 texts (1,000 per class)",
+        "RAID Llama sampling": "2,000 texts (1,000 per class)",
+        "RAID Mistral": "2,000 texts (1,000 per class)"
+      },
+      "decision_rules": "fixed on HC3 and applied unchanged to every external set",
+      "repreguard_aggregation": "mean over five bootstrap resamples, as in the five-detector comparison",
+      "repreguard_threshold_tau": -5.76,
+      "tpr_at_fpr_0_01": "interpolated from the ROC curve"
+    }
+  }
+}

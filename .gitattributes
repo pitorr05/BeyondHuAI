@@ -1,0 +1,13 @@
+* text=auto
+.gitattributes text eol=lf
+.gitignore text eol=lf
+*.py text eol=lf
+*.md text eol=lf
+*.yml text eol=lf
+*.cff text eol=lf
+requirements*.txt text eol=lf
+# Preserve checksum-addressed snapshots across Windows and Linux checkouts.
+data/** -text -whitespace
+results/** -text -whitespace
+assets/** -text -whitespace
+survey/references.bib -text -whitespace

@@ -1,0 +1,76 @@
+{
+  "figures": [
+    {
+      "figure": 1,
+      "title": "Alternative writing histories and the limits of document-level detection",
+      "manuscript_source": "figures/motivation_authorship_evidence.pdf",
+      "repository_asset": "assets/paper/motivation_authorship_evidence.pdf",
+      "preview": "assets/previews/motivation_authorship_evidence.png",
+      "sha256": "286d264eb3497c8a87554675762de425173af1787474657d8a316a6100a2aff9"
+    },
+    {
+      "figure": 2,
+      "title": "Ranking-decision divergence on GPT-3.5 mixed",
+      "manuscript_source": "figures/motivation_ranking_decisions.pdf",
+      "repository_asset": "assets/paper/motivation_ranking_decisions.pdf",
+      "preview": "assets/previews/motivation_ranking_decisions.png",
+      "sha256": "cd332685d9a3acf23459a7155f62c1b028daeb4445c5f1a3388b3a3fa7881164"
+    },
+    {
+      "figure": 3,
+      "title": "Word-level versus sentence-level attribution policies on APT-Eval and Beemo",
+      "manuscript_source": "figures/policy_disagreement.pdf",
+      "repository_asset": "assets/paper/policy_disagreement.pdf",
+      "preview": "assets/previews/policy_disagreement.png",
+      "sha256": "8695df3f4799e3eeeaeeff507ab557ea9c5c510e86cb44c3c64d1907a67ba3d4"
+    },
+    {
+      "figure": 4,
+      "title": "Detector score versus word-level AI ratio on 8,515 EditLens documents",
+      "manuscript_source": "figures/score_vs_ratio.pdf",
+      "repository_asset": "assets/paper/score_vs_ratio.pdf",
+      "preview": "assets/previews/score_vs_ratio.png",
+      "sha256": "ae097fd7572abb5fdcd108b1c46fe7c119300ec2566bdb5fa5f866424753786c"
+    },
+    {
+      "figure": 5,
+      "title": "Layer-wise Cohen's d for document-pooled signed activations",
+      "manuscript_source": "figures/layer_effect_profiles.pdf",
+      "repository_asset": "assets/paper/layer_effect_profiles.pdf",
+      "preview": "assets/previews/layer_effect_profiles.png",
+      "sha256": "9805da9a5630501f7ee1691f50dedf85723238333bcb37cca01fb97fbdf58ee1"
+    },
+    {
+      "figure": 6,
+      "title": "Cell-wise standardized signed activation contrasts",
+      "manuscript_source": "figures/diagnostic_cell_contrasts.pdf",
+      "repository_asset": "assets/paper/diagnostic_cell_contrasts.pdf",
+      "preview": "assets/previews/diagnostic_cell_contrasts.png",
+      "sha256": "0b77b9b3655098b647a79628fc51e52e2cd95bbcb6678e3325877d5134e78b82"
+    },
+    {
+      "figure": 7,
+      "title": "Process-Aware Authorship Reconstruction (PAAR) reference architecture",
+      "manuscript_source": "figures/paar_framework.pdf",
+      "repository_asset": "assets/paper/paar_framework.pdf",
+      "preview": "assets/previews/paar_framework.png",
+      "sha256": "defbc6b81d0d98570ac02846df55b8eec6b5a0252260ec9f3445834eb129d45f"
+    },
+    {
+      "figure": 8,
+      "title": "Complementary signed and magnitude contrasts for HC3/7B",
+      "manuscript_source": "figures/diagnostic_complete_hc3_7b.pdf",
+      "repository_asset": "assets/paper/diagnostic_complete_hc3_7b.pdf",
+      "preview": "assets/previews/diagnostic_complete_hc3_7b.png",
+      "sha256": "3147799f86ad5cc5b96b068dce319773c0a56b1d015c87287a07bc30c5928eaf"
+    },
+    {
+      "figure": 9,
+      "title": "Layer-wise signed mean differences and 95% bootstrap intervals",
+      "manuscript_source": "figures/diagnostic_layer_intervals_7b.pdf",
+      "repository_asset": "assets/paper/diagnostic_layer_intervals_7b.pdf",
+      "preview": "assets/previews/diagnostic_layer_intervals_7b.png",
+      "sha256": "3fc026de3bcd7fa3ed8650fe12bad1b5c22564c7ae58679612a63bd33a9a9d43"
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+# CPU archive reconstruction; tested with Python 3.13, CI uses Python 3.11.
+numpy==2.3.3
+pandas==2.2.3
+matplotlib==3.10.6

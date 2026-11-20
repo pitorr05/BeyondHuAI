@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use these resources, please cite the survey and this companion repository."
+type: software
+title: "BeyondHuAI: Companion Repository for Beyond Human vs AI: A Survey of Attribution, Robustness, and Human-AI Co-authorship in Large Language Model Forensics"
+authors:
+  - family-names: Pham
+    given-names: Quang Toan
+    orcid: "https://orcid.org/0009-0003-4415-3199"
+  - family-names: Nguyen
+    given-names: Duc Trung
+    orcid: "https://orcid.org/0009-0000-9878-7478"
+  - family-names: Hoang
+    given-names: Chi Hien
+    orcid: "https://orcid.org/0009-0006-0180-677X"
+  - family-names: Nguyen
+    given-names: Quang Chien
+  - family-names: Nguyen
+    given-names: Kieu Linh
+repository-code: "https://github.com/pitorr05/BeyondHuAI"
+url: "https://github.com/pitorr05/BeyondHuAI"
+license: MIT
+keywords:
+  - AI-generated text detection
+  - authorship attribution
+  - human-AI co-authorship
+  - large language models
+  - LLM forensics
+  - robustness
+abstract: "Literature catalog of the 112 works cited in the survey, released evaluation splits, detector and contribution-analysis results, representation diagnostics on eight Qwen2.5 configurations, and the code that rebuilds the diagnostic tables and figures. MIT applies to original software; third-party datasets keep their upstream terms."
