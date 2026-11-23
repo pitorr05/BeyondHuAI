@@ -366,7 +366,7 @@ The survey cites **112 works**, 108 of them published or released between Januar
 |---|---|---:|---|
 | LLMs for Science: Usage for Code Generation and Data Analysis | Journal of Software: Evolution and Process | 2025 | [Paper](https://doi.org/10.1002/smr.2723) |
 | Qwen2.5 Technical Report | arXiv | 2025 | [Paper](https://arxiv.org/abs/2412.15115v2) |
-| The Role of Generative AI ChatGPT Technology in Renewing Journalism: A Systematic Review | Journal of Mass Communication Research | 2025 | [BibTeX](survey/references.bib) |
+| Collaborating With ChatGPT: Considering the Implications of Generative Artificial Intelligence for Journalism and Media Education | Journalism & Mass Communication Educator | 2023 | [Paper](https://doi.org/10.1177/10776958221149577) |
 | ChatGPT in Medicine: Prospects and Challenges: A Review Article | International Journal of Surgery | 2024 | [Paper](https://doi.org/10.1097/JS9.0000000000001312) |
 | The Role of ChatGPT in Medical Research: Progress and Limitations | Annals of Biomedical Engineering | 2024 | [Paper](https://doi.org/10.1007/s10439-023-03311-0) |
 | Experimental Evidence on the Productivity Effects of Generative Artificial Intelligence | Science | 2023 | [Paper](https://doi.org/10.1126/science.adh2586) |
